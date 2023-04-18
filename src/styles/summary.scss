@@ -1,0 +1,13 @@
+@use "variables";
+@import "variables";
+
+.main-container[id="2"] {
+    @extend %main-container;
+    @include gradient($summary-color-dark, $summary-color-light);
+}
+
+.component-container[id="2"] {
+    @extend %component-container;
+    width: 70vw;
+    text-align: justify;
+}

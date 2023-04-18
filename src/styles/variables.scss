@@ -1,0 +1,59 @@
+$id-color-dark: #0ca3e4;
+$id-color-light: #9ee2ff99;
+$summary-color-dark: #d62839;
+$summary-color-light: #f5425499;
+$experience-color-dark: #eac435;
+$experience-color-light: #fde89b99;
+$skill-color-dark: #87b6a7;
+$skill-color-light: #c9e6dc99;
+$education-color-dark: #80a807;
+$education-color-light: #c7df5799;
+$project-color-dark: #ff751f;
+$project-color-light: #ffc32c99;
+$contact-color-dark: #03191e;
+$contact-color-light: #182d3199;
+
+$small: 0.5rem;
+$medium: 1rem;
+$big: 3rem;
+
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1025px;
+
+@mixin gradient($color1, $color2) {
+    background-image: linear-gradient(to right, $color1, $color2);
+}
+
+%main-container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    align-items: center;
+    gap: $medium;
+    min-height: 340px;
+}
+
+%component-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $medium;
+    padding: $small $medium;
+    color: white;
+}
+
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

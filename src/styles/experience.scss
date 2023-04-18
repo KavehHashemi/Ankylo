@@ -1,0 +1,27 @@
+@use "variables";
+@import "variables";
+
+.main-container[id="3"] {
+    @extend %main-container;
+    @include gradient($experience-color-dark, $experience-color-light);
+}
+
+.component-container[id="3"] {
+    @extend %component-container;
+}
+.exp-card {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        padding-left: $medium;
+    }
+    div[id="time"] {
+        background-color: #917306;
+    }
+    div[id="as"] {
+        background-color: #b8961c;
+    }
+    div[id="co"] {
+        background-color: #eac435;
+    }
+}

@@ -1,0 +1,29 @@
+@use "variables";
+@import "variables";
+
+.main-container[id="1"] {
+    @extend %main-container;
+    grid-template-rows: 1fr auto;
+    @include gradient($id-color-dark, $id-color-light);
+}
+.component-container[id="1"] {
+    @extend %component-container;
+}
+
+.avatar-container {
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 120px;
+}
+
+.name-container {
+    @extend %center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    div {
+        text-transform: uppercase;
+        font-family: "futura";
+    }
+}

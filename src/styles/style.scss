@@ -1,0 +1,60 @@
+@use "id";
+@use "summary";
+@use "experience";
+@use "education";
+@use "project";
+@use "skill";
+@import "variables";
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "tisa";
+    src: url("../public/assets/fonts/TisaSansProRegular.ttf");
+}
+
+@font-face {
+    font-family: "tisabold";
+    src: url("../public/assets/fonts/TisaSansProBold.ttf");
+}
+
+@font-face {
+    font-family: "tisalight";
+    src: url("../public/assets/fonts/TisaSansProLight.ttf");
+}
+
+@font-face {
+    font-family: "futura";
+    src: url("../public/assets/fonts/FuturaBold.otf");
+}
+
+/*sm*/
+
+.bg {
+    background-image: url("../../public/assets/bg4.svg");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign {
+    background-image: url("../../public/assets/Signature.png");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+/*md*/
+@media (max-width: $desktop) and (min-width: $phone) {
+}
+/*lg*/
+@media (min-width: $desktop) {
+}
+/*short*/
+@media (max-height: 600px) {
+}

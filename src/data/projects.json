@@ -1,0 +1,66 @@
+{
+    "projects": [
+        {
+            "name": "Stego",
+            "description": "A react TS website using Metropolitan museum of art's public API",
+            "tech": [
+                "React",
+                "TypeScript",
+                "IndexedDb",
+                "MUI"
+            ],
+            "github": "https://github.com/KavehHashemi/Stego",
+            "url": "https://metropolitan-museum.netlify.app/",
+            "ispersonal": "true"
+        },
+        {
+            "name": "Bronto",
+            "description": "A React client for FullCalendar, using typescript, IndexedDB and MUI",
+            "tech": [
+                "react",
+                "TypeScript",
+                "MUI",
+                "Dexie"
+            ],
+            "github": "https://github.com/KavehHashemi/Bronto",
+            "url": "https://fullcalendar-react-ts.netlify.app/",
+            "ispersonal": "false"
+        },
+        {
+            "name": "Brachio",
+            "description": "A React client for monitoring and managing jetstreams in NATS messaging system.",
+            "tech": [
+                "react",
+                "TypeScript",
+                "NATS",
+                "Redux"
+            ],
+            "github": "https://github.com/KavehHashemi/Brachio",
+            "url": "#",
+            "ispersonal": "false"
+        },
+        {
+            "name": "Durga",
+            "description": "Durga's Description",
+            "tech": [
+                "react",
+                "TypeScript"
+            ],
+            "github": "https://github.com/PariaMahmoudi/Durga",
+            "url": "#",
+            "ispersonal": "true"
+        },
+        {
+            "name": "Tamin",
+            "description": "Insurance",
+            "tech": [
+                "C#",
+                "Blazor",
+                "MudBlazor"
+            ],
+            "github": "#",
+            "url": "#",
+            "ispersonal": "false"
+        }
+    ]
+}

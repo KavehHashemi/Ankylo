@@ -1,0 +1,61 @@
+@use "variables";
+@import "variables";
+
+.main-container[id="5"] {
+    @extend %main-container;
+    @include gradient($education-color-dark, $education-color-light);
+}
+.component-container[id="5"] {
+    @extend %component-container;
+    align-items: stretch;
+    color: #242424;
+    @media (max-width: $desktop) and (min-width: $phone) {
+        font-size: 14px;
+    }
+    @media (min-width: $desktop) {
+        flex-direction: row;
+    }
+}
+
+%education-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education-card {
+    @extend %education-card;
+    gap: 0.5rem;
+    background-color: #ffffff50;
+    border-radius: $small;
+    padding: $medium;
+    @media (max-width: $desktop) and (min-width: $phone) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    @media (min-width: $desktop) {
+        width: 30vw;
+        justify-content: space-around;
+    }
+}
+.education-item {
+    @extend %education-card;
+    img {
+        width: 10vw;
+    }
+    @media (max-width: $desktop) and (min-width: $phone) {
+        img {
+            width: 10vw;
+        }
+    }
+}
+
+.educations {
+    @extend %education-card;
+    div {
+        &:first-child {
+            font-weight: bold;
+        }
+    }
+}

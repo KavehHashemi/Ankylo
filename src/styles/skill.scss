@@ -1,0 +1,52 @@
+@use "variables";
+@import "variables";
+
+.main-container[id="4"] {
+    @extend %main-container;
+    @include gradient($skill-color-dark, $skill-color-light);
+}
+.component-container[id="4"] {
+    @extend %component-container;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media (max-width: $phone) {
+        gap: $small;
+    }
+}
+
+.skill-card {
+    background-color: $skill-color-light;
+    border-radius: 2px;
+    padding: $small;
+    width: 14vw;
+    img {
+        width: 14vw;
+    }
+
+    div[id="title"] {
+        display: none;
+    }
+
+    @media (max-width: $desktop) and (min-width: $phone) {
+        border-radius: $small;
+        width: 10vw;
+        img {
+            width: 10vw;
+        }
+    }
+    @media (min-width: $desktop) {
+        border-radius: $small;
+        width: 8vw;
+        img {
+            width: 8vw;
+        }
+        div[id="title"] {
+            display: flex;
+            justify-content: center;
+            font-family: tisa;
+            font-size: 14px;
+        }
+    }
+}
