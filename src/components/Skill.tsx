@@ -2,9 +2,11 @@ type props = {
   name: string;
   width: number;
   url?: string;
+  pic: string;
 };
-const Skill = ({ name, width, url }: props) => {
-  let source: string = `src/assets/${name}.svg`;
+
+const Skill = ({ name, width, url, pic }: props) => {
+  // let source: string = `../assets/${name}.svg`;
 
   return (
     <div className="skill-card">
@@ -14,7 +16,8 @@ const Skill = ({ name, width, url }: props) => {
         rel="noreferrer"
         style={{ textDecoration: "none", textAlign: "center", color: "#333" }}
       >
-        <img width={width} alt={name} src={source}></img>
+        <img width={width} alt={name} src={pic}></img>
+
         <div id="title" style={{ fontWeight: "500" }}>
           {name}
         </div>

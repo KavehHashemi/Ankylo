@@ -3,6 +3,9 @@ import "../styles/style.scss";
 
 import IconButton from "@mui/material/IconButton";
 
+import arrowdown from "../assets/arrowdown.svg";
+import arrowup from "../assets/arrowup.svg";
+import more from "../assets/more.svg";
 import data from "../data/projects.json";
 import Project from "./Project";
 
@@ -50,8 +53,7 @@ const Projects = ({ up, down }: props) => {
           pointerEvents: "auto",
         }}
       >
-        <img src="src/assets/more.svg" width={24}></img>
-        {/* <More style={{ color: "white" }}></More> */}
+        <img src={more} width={24}></img>
       </div>
     </a>,
   ];
@@ -60,7 +62,7 @@ const Projects = ({ up, down }: props) => {
     <div className="main-container" id="6">
       <div className="arrow-container" onClick={up}>
         <IconButton>
-          <img width={24} src="src/assets/arrowup.svg"></img>
+          <img width={24} src={arrowup}></img>
         </IconButton>
       </div>
       <div className="component-container" id="6" onClick={down}>
@@ -68,7 +70,7 @@ const Projects = ({ up, down }: props) => {
       </div>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <img width={24} src="src/assets/arrowdown.svg"></img>
+          <img width={24} src={arrowdown}></img>
         </IconButton>
       </div>
     </div>

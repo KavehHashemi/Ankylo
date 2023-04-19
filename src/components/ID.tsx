@@ -2,6 +2,9 @@ import "../styles/style.scss";
 
 import IconButton from "@mui/material/IconButton";
 
+import arrowdown from "../assets/arrowdown.svg";
+import pp from "../assets/pp.jpg";
+
 type props = {
   down: () => void;
 };
@@ -13,7 +16,7 @@ const ID = ({ down }: props) => {
           <img
             className="avatar-container"
             height={120}
-            src="src/assets/pp.jpg"
+            src={pp}
             alt="ProfilePic"
           ></img>
         </div>
@@ -24,7 +27,7 @@ const ID = ({ down }: props) => {
       </div>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <img width={24} src="src/assets/arrowdown.svg"></img>
+          <img width={24} src={arrowdown}></img>
         </IconButton>
       </div>
     </div>

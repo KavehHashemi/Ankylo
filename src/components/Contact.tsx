@@ -6,6 +6,15 @@ import Snackbar from "@mui/material/Snackbar";
 import Tooltip from "@mui/material/Tooltip";
 import { useState } from "react";
 
+import arrowdoubleup from "../assets/arrowdoubleup.svg";
+import arrowup from "../assets/arrowup.svg";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
+import locale from "../assets/location.svg";
+import mail from "../assets/mail.svg";
+import phone from "../assets/phone.svg";
+import reddit from "../assets/reddit.svg";
+
 type props = {
   up: () => void;
   down: () => void;
@@ -17,14 +26,14 @@ const Contact = ({ up, down }: props) => {
     <div className="main-container " id="7">
       <div className="arrow-container" onClick={up}>
         <IconButton>
-          <img width={24} src="src/assets/arrowup.svg"></img>
+          <img width={24} src={arrowup}></img>
         </IconButton>
       </div>
       <div className="component-container" id="7">
         <div className="component-card" id="7">
           <Tooltip title="Tehran, Iran">
             <IconButton>
-              <img src="src/assets/location.svg" alt="Location"></img>
+              <img src={locale} alt="Location"></img>
             </IconButton>
           </Tooltip>
         </div>
@@ -39,7 +48,7 @@ const Contact = ({ up, down }: props) => {
         >
           <Tooltip title="KavehHashemi@outlook.com">
             <IconButton>
-              <img src="src/assets/mail.svg" alt="Email"></img>
+              <img src={mail} alt="Email"></img>
             </IconButton>
           </Tooltip>
         </div>
@@ -53,7 +62,7 @@ const Contact = ({ up, down }: props) => {
                 rel="noreferrer"
                 style={{ display: "flex" }}
               >
-                <img src="src/assets/github.svg" alt="GitHub"></img>
+                <img src={github} alt="GitHub"></img>
               </a>
             </IconButton>
           </Tooltip>
@@ -68,7 +77,7 @@ const Contact = ({ up, down }: props) => {
                 rel="noreferrer"
                 style={{ display: "flex" }}
               >
-                <img src="src/assets/linkedin.svg" alt="LinkedIn"></img>
+                <img src={linkedin} alt="LinkedIn"></img>
               </a>
             </IconButton>
           </Tooltip>
@@ -84,7 +93,7 @@ const Contact = ({ up, down }: props) => {
         >
           <Tooltip title="+989376318905">
             <IconButton>
-              <img src="src/assets/phone.svg" alt="Phone"></img>
+              <img src={phone} alt="Phone"></img>
             </IconButton>
           </Tooltip>
         </div>
@@ -98,7 +107,7 @@ const Contact = ({ up, down }: props) => {
                 rel="noreferrer"
                 style={{ display: "flex" }}
               >
-                <img src="src/assets/reddit.svg" alt="Reddit"></img>
+                <img src={reddit} alt="Reddit"></img>
               </a>
             </IconButton>
           </Tooltip>
@@ -113,12 +122,12 @@ const Contact = ({ up, down }: props) => {
           <Alert severity="success">Copied to clipboard</Alert>
         </Snackbar>
       </div>
-      <a href="./assets/KavehHashemiCV.docx" download={true}>
+      <a href="./KavehHashemiCV.docx" download={true}>
         <div className="component-container sign" id="7"></div>
       </a>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <img width={24} src="src/assets/arrowdoubleup.svg"></img>
+          <img width={24} src={arrowdoubleup}></img>
         </IconButton>
       </div>
     </div>
