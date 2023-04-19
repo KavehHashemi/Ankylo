@@ -26,4 +26,7 @@
         text-transform: uppercase;
         font-family: "futura";
     }
+    @media (min-width: $desktop) {
+        font-size: 2.5rem;
+    }
 }

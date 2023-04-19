@@ -49,6 +49,16 @@
             width: 10vw;
         }
     }
+    @media (min-width: $desktop) {
+        img {
+            width: 8vw;
+        }
+    }
+    @media (max-height: 500px) {
+        img {
+            width: 4vw;
+        }
+    }
 }
 
 .educations {

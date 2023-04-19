@@ -3,11 +3,14 @@
 @use "experience";
 @use "education";
 @use "project";
+@use "contact";
 @use "skill";
 @import "variables";
 
 body {
     margin: 0;
+    font-family: "tisa", "Segue UI";
+    overflow: hidden;
 }
 
 @font-face {

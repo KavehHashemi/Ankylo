@@ -1,7 +1,7 @@
-import '../styles/style.scss';
+import "../styles/style.scss";
 
-import Arrow from '@mui/icons-material/KeyboardArrowDownRounded';
-import IconButton from '@mui/material/IconButton';
+import Arrow from "@mui/icons-material/KeyboardArrowDownRounded";
+import IconButton from "@mui/material/IconButton";
 
 type props = {
   down: () => void;
@@ -14,7 +14,7 @@ const ID = ({ down }: props) => {
           <img
             className="avatar-container"
             height={120}
-            src="./assets/pp2.jpg"
+            src="./assets/pp.jpg"
             alt="ProfilePic"
           ></img>
         </div>

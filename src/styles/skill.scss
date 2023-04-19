@@ -14,10 +14,13 @@
     @media (max-width: $phone) {
         gap: $small;
     }
+    @media (max-height: 500px) {
+        gap: 4px;
+    }
 }
 
 .skill-card {
-    background-color: $skill-color-light;
+    background-color: #ffffff50;
     border-radius: 2px;
     padding: $small;
     width: 14vw;
@@ -47,6 +50,15 @@
             justify-content: center;
             font-family: tisa;
             font-size: 14px;
+        }
+    }
+    @media (max-height: 500px) {
+        width: 7vw;
+        img {
+            width: 7vw;
+        }
+        div[id="title"] {
+            display: none;
         }
     }
 }

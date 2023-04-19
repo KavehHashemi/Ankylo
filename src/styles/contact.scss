@@ -1,0 +1,22 @@
+@use "variables";
+@import "variables";
+
+.main-container[id="7"] {
+    @extend %main-container;
+    @include gradient($contact-color-dark, $contact-color-light2);
+}
+.component-container[id="7"] {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.component-card[id="7"] {
+    display: flex;
+    @media (max-height: 500px) {
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
