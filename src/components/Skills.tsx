@@ -4,6 +4,8 @@ import "../styles/style.scss";
 import IconButton from "@mui/material/IconButton";
 
 import AdobeXD from "../assets/Adobe XD.svg";
+import arrowdown from "../assets/arrowdown.svg";
+import arrowup from "../assets/arrowup.svg";
 import blazor from "../assets/Blazor.svg";
 import Bootstrap from "../assets/Bootstrap.svg";
 import css from "../assets/CSS.svg";
@@ -67,7 +69,7 @@ const Skills = ({ up, down }: props) => {
     <div className="main-container" id="4">
       <div className="arrow-container" onClick={up}>
         <IconButton>
-          <img width={24} src="src/assets/arrowup.svg"></img>
+          <img width={24} src={arrowup}></img>
         </IconButton>
       </div>
       <div className="component-container" id="4" onClick={down}>
@@ -75,7 +77,7 @@ const Skills = ({ up, down }: props) => {
       </div>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <img width={24} src="src/assets/arrowdown.svg"></img>
+          <img width={24} src={arrowdown}></img>
         </IconButton>
       </div>
     </div>
