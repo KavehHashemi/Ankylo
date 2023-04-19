@@ -4,7 +4,7 @@ type props = {
   url?: string;
 };
 const Skill = ({ name, width, url }: props) => {
-  let source: string = `assets/${name}.svg`;
+  let source: string = `src/assets/${name}.svg`;
 
   return (
     <div className="skill-card">

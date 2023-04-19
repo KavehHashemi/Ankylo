@@ -1,9 +1,7 @@
 /* eslint-disable array-callback-return */
 import "../styles/style.scss";
 
-import Down from "@mui/icons-material/KeyboardArrowDownRounded";
-import Up from "@mui/icons-material/KeyboardArrowUpRounded";
-import { IconButton } from "@mui/material";
+import IconButton from "@mui/material/IconButton";
 
 import data from "../data/data.json";
 import Skill from "./Skill";
@@ -33,7 +31,7 @@ const Skills = ({ up, down }: props) => {
     <div className="main-container" id="4">
       <div className="arrow-container" onClick={up}>
         <IconButton>
-          <Up></Up>
+          <img width={24} src="src/assets/arrowup.svg"></img>
         </IconButton>
       </div>
       <div className="component-container" id="4" onClick={down}>
@@ -42,7 +40,7 @@ const Skills = ({ up, down }: props) => {
       </div>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <Down></Down>
+          <img width={24} src="src/assets/arrowdown.svg"></img>
         </IconButton>
       </div>
     </div>

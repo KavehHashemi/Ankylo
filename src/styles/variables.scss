@@ -1,20 +1,30 @@
 $id-color-dark: #0ca3e4;
-$id-color-light: #9ee2ff99;
+$id-color-light: rgb(158, 226, 255);
+$id-color-light2: rgba(158, 226, 255, 0.85);
+
 $summary-color-dark: rgb(214, 40, 57);
-$summary-color-light: #f5425499;
-$summary-color-light2: rgba(214, 40, 57, 0.83);
-$experience-color-dark: #eac435;
-$experience-color-light: #fde89b99;
+$summary-color-light: rgb(253, 46, 67);
+$summary-color-light2: rgba(253, 46, 67, 0.85);
+
+$experience-color-dark: rgb(234, 196, 53);
+$experience-color-light: rgb(253, 232, 155);
+$experience-color-light2: rgba(253, 232, 155, 0.6);
+
 $skill-color-dark: rgb(135, 182, 167);
-$skill-color-light: #c9e6dc99;
-$skill-color-light: rgba(135, 182, 167, 0.5);
-$education-color-dark: #80a807;
-$education-color-light: #c7df5799;
-$project-color-dark: #ff751f;
-$project-color-light: #ffc32c99;
-$contact-color-dark: #03191e;
-$contact-color-light: #182d3199;
-$contact-color-light2: rgba(3, 25, 30, 0.85);
+$skill-color-light: rgb(201, 230, 220);
+$skill-color-light2: rgba(135, 182, 167, 0.74);
+
+$education-color-dark: rgb(128, 168, 7);
+$education-color-light: rgb(199, 223, 87);
+$education-color-light2: rgba(199, 223, 87, 0.6);
+
+$project-color-dark: rgb(255, 117, 31);
+$project-color-light: rgb(255, 195, 44);
+$project-color-light2: rgba(255, 195, 44, 0.6);
+
+$contact-color-dark: rgb(3, 25, 30);
+$contact-color-light: rgb(24, 45, 49);
+$contact-color-light2: rgba(24, 45, 49, 0.85);
 
 $small: 0.5rem;
 $medium: 1rem;
@@ -24,8 +34,8 @@ $phone: 480px;
 $tablet: 768px;
 $desktop: 1025px;
 
-@mixin gradient($color1, $color2) {
-    background-image: linear-gradient(to right, $color1, $color2);
+@mixin gradient($color1, $color2, $color3) {
+    background-image: linear-gradient(to right, $color1 0, $color2 65%, $color3 100%);
 }
 
 %main-container {

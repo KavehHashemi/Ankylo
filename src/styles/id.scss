@@ -4,7 +4,7 @@
 .main-container[id="1"] {
     @extend %main-container;
     grid-template-rows: 1fr auto;
-    @include gradient($id-color-dark, $id-color-light);
+    @include gradient($id-color-dark, $id-color-light, $id-color-light2);
 }
 .component-container[id="1"] {
     @extend %component-container;

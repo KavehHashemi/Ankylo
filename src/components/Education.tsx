@@ -1,8 +1,6 @@
-import '../styles/style.scss';
+import "../styles/style.scss";
 
-import Down from '@mui/icons-material/KeyboardArrowDownRounded';
-import Up from '@mui/icons-material/KeyboardArrowUpRounded';
-import { IconButton } from '@mui/material';
+import IconButton from "@mui/material/IconButton";
 
 type props = {
   up: () => void;
@@ -13,20 +11,20 @@ const Education = ({ up, down }: props) => {
     <div className="main-container" id="5">
       <div className="arrow-container" onClick={up}>
         <IconButton>
-          <Up></Up>
+          <img width={24} src="src/assets/arrowup.svg"></img>
         </IconButton>
       </div>
       <div className="component-container" id="5" onClick={down}>
         <div className="education-card">
           <div className="education-item">
-            <img width={60} src="./assets/English.svg" alt=""></img>
+            <img width={60} src="src/assets/English.svg" alt=""></img>
             <div className="educations">
               <div>English</div>
               <div>Full Professional</div>
             </div>
           </div>
           <div className="education-item">
-            <img width={60} src="./assets/Farsi.svg" alt=""></img>
+            <img width={60} src="src/assets/Farsi.svg" alt=""></img>
             <div className="educations">
               <div>Farsi/Persian</div>
               <div>Native</div>
@@ -37,7 +35,7 @@ const Education = ({ up, down }: props) => {
           <div className="education-item">
             <img
               width={60}
-              src="./assets/University of tehran.svg"
+              src="src/assets/University of tehran.svg"
               alt=""
             ></img>
             <div className="educations">
@@ -49,7 +47,7 @@ const Education = ({ up, down }: props) => {
           <div className="education-item">
             <img
               width={60}
-              src="./assets/Shahrood University of Technology.svg"
+              src="src/assets/Shahrood University of Technology.svg"
               alt=""
             ></img>
             <div className="educations">
@@ -62,7 +60,7 @@ const Education = ({ up, down }: props) => {
       </div>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <Down></Down>
+          <img width={24} src="src/assets/arrowdown.svg"></img>
         </IconButton>
       </div>
     </div>

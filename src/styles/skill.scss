@@ -3,7 +3,7 @@
 
 .main-container[id="4"] {
     @extend %main-container;
-    @include gradient($skill-color-dark, $skill-color-light);
+    @include gradient($skill-color-dark, $skill-color-light, $skill-color-light2);
 }
 .component-container[id="4"] {
     @extend %component-container;

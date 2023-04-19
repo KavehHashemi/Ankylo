@@ -3,7 +3,7 @@
 
 .main-container[id="7"] {
     @extend %main-container;
-    @include gradient($contact-color-dark, $contact-color-light2);
+    @include gradient($contact-color-dark, $contact-color-light, $contact-color-light2);
 }
 .component-container[id="7"] {
     display: flex;
@@ -13,6 +13,10 @@
 }
 .component-card[id="7"] {
     display: flex;
+    img {
+        width: 80px;
+        height: 80px;
+    }
     @media (max-height: 500px) {
         img {
             width: 60px;

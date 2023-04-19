@@ -3,7 +3,7 @@
 
 .main-container[id="6"] {
     @extend %main-container;
-    @include gradient($project-color-dark, $project-color-light);
+    @include gradient($project-color-dark, $project-color-light, $project-color-light2);
 }
 .component-container[id="6"] {
     @extend %component-container;

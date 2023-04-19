@@ -1,8 +1,6 @@
 import "../styles/style.scss";
 
-import Down from "@mui/icons-material/KeyboardArrowDownRounded";
-import Up from "@mui/icons-material/KeyboardArrowUpRounded";
-import { IconButton } from "@mui/material";
+import IconButton from "@mui/material/IconButton";
 
 import data from "../data/data.json";
 
@@ -15,7 +13,7 @@ const Summary = ({ down, up }: props) => {
     <div className="main-container" id="2">
       <div className="arrow-container" onClick={up}>
         <IconButton>
-          <Up></Up>
+          <img width={24} src="src/assets/arrowup.svg"></img>
         </IconButton>
       </div>
       <div className="component-container" id="2" onClick={down}>
@@ -23,7 +21,7 @@ const Summary = ({ down, up }: props) => {
       </div>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <Down></Down>
+          <img width={24} src="src/assets/arrowdown.svg"></img>
         </IconButton>
       </div>
     </div>

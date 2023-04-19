@@ -1,10 +1,7 @@
 /* eslint-disable array-callback-return */
 import "../styles/style.scss";
 
-import Down from "@mui/icons-material/KeyboardArrowDownRounded";
-import More from "@mui/icons-material/KeyboardArrowRight";
-import Up from "@mui/icons-material/KeyboardArrowUpRounded";
-import { IconButton } from "@mui/material";
+import IconButton from "@mui/material/IconButton";
 
 import data from "../data/projects.json";
 import Project from "./Project";
@@ -48,12 +45,13 @@ const Projects = ({ up, down }: props) => {
           margin: "2rem",
           padding: "1rem",
           borderRadius: "50%",
-          backgroundColor: "#ffffff50",
+          backgroundColor: "rgba(255, 255, 255, 0.3)",
           cursor: "pointer",
           pointerEvents: "auto",
         }}
       >
-        <More style={{ color: "white" }}></More>
+        <img src="src/assets/more.svg" width={24}></img>
+        {/* <More style={{ color: "white" }}></More> */}
       </div>
     </a>,
   ];
@@ -62,7 +60,7 @@ const Projects = ({ up, down }: props) => {
     <div className="main-container" id="6">
       <div className="arrow-container" onClick={up}>
         <IconButton>
-          <Up></Up>
+          <img width={24} src="src/assets/arrowup.svg"></img>
         </IconButton>
       </div>
       <div className="component-container" id="6" onClick={down}>
@@ -70,7 +68,7 @@ const Projects = ({ up, down }: props) => {
       </div>
       <div className="arrow-container" onClick={down}>
         <IconButton>
-          <Down></Down>
+          <img width={24} src="src/assets/arrowdown.svg"></img>
         </IconButton>
       </div>
     </div>

@@ -3,7 +3,7 @@
 
 .main-container[id="3"] {
     @extend %main-container;
-    @include gradient($experience-color-dark, $experience-color-light);
+    @include gradient($experience-color-dark, $experience-color-light, $experience-color-light2);
 }
 
 .component-container[id="3"] {
