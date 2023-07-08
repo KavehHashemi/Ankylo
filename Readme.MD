@@ -23,4 +23,4 @@ This is my personal website; It's basically my CV with some icons.
 
 #### `npm install`
 
-#### `npm start`
+#### `npm run dev`

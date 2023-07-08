@@ -25,6 +25,9 @@ import restapi from "../assets/REST API.svg";
 import tailwind from "../assets/Tailwind.svg";
 import typescript from "../assets/TypeScript.svg";
 import visio from "../assets/Visio.svg";
+import mongodb from "../assets/MongoDB.svg";
+import graphql from "../assets/graphql.svg";
+import sass from "../assets/Sass.svg";
 import data from "../data/data.json";
 import Skill from "./Skill";
 
@@ -42,19 +45,17 @@ const Skills = ({ up, down }: props) => {
     blazor,
     html,
     css,
-    MaterialDesign,
+    sass,
     tailwind,
-    Bootstrap,
-    NodeJS,
-    express,
     mui,
     MudBlazor,
-    IndexedDB,
-    git,
+    Bootstrap,
+    NodeJS,
+    graphql,
+    mongodb,
     restapi,
-    visio,
-    Photoshop,
-    AdobeXD,
+    express,
+    git,
   ];
 
   let skillSet: JSX.Element[] = [];

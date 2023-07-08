@@ -1,5 +1,5 @@
 {
-    "summary": "After studying two separate fields in renowned universities, I found peace in developing websites and web-Apps. I started with ReactJs and had some experience with node.js, after that I had to learn C# Blazor, and lately, TypeScript and IndexedDB. I look forward to new challenges and new projects so I can learn new technologies and solve some problems!",
+    "summary": "Passionate and adaptable frontend developer with expertise in ReactJs and TypeScript, and a strong drive to learn new technologies. Skilled in UI development, problem-solving, and a passion for tackling challenges in web development projects. Experienced in collaborating with teams and delivering impactful solutions.",
     "skills": [
         [
             "React",
@@ -30,24 +30,12 @@
             "https://developer.mozilla.org/en-US/docs/Web/CSS"
         ],
         [
-            "Material Design",
-            "https://m3.material.io/"
+            "SASS",
+            "https://sass-lang.com"
         ],
         [
             "Tailwind",
             "https://tailwindcss.com/"
-        ],
-        [
-            "Bootstrap",
-            "https://getbootstrap.com/"
-        ],
-        [
-            "NodeJS",
-            "https://nodejs.org/"
-        ],
-        [
-            "Express",
-            "https://expressjs.com/"
         ],
         [
             "MUI",
@@ -58,28 +46,32 @@
             "https://mudblazor.com/"
         ],
         [
-            "IndexedDB",
-            "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"
+            "Bootstrap",
+            "https://getbootstrap.com/"
         ],
         [
-            "Git",
-            "https://github.com/"
+            "NodeJS",
+            "https://nodejs.org/"
+        ],
+        [
+            "GraphQL",
+            "https://graphql.org"
+        ],
+        [
+            "MongoDB",
+            "https://www.mongodb.com"
         ],
         [
             "REST API",
             "https://restfulapi.net/"
         ],
         [
-            "Visio",
-            "https://www.microsoft.com/en-ww/microsoft-365/visio/flowchart-software"
+            "Express",
+            "https://expressjs.com/"
         ],
         [
-            "Photoshop",
-            "https://www.adobe.com/products/photoshop.html"
-        ],
-        [
-            "Adobe XD",
-            "https://helpx.adobe.com/support/xd.html"
+            "Git",
+            "https://github.com/"
         ]
     ]
 }

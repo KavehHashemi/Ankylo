@@ -16,7 +16,7 @@ const Skill = ({ name, width, url, pic }: props) => {
         rel="noreferrer"
         style={{ textDecoration: "none", textAlign: "center", color: "#333" }}
       >
-        <img width={width} alt={name} src={pic}></img>
+        <img width={width} height={width} alt={name} src={pic}></img>
 
         <div id="title" style={{ fontWeight: "500" }}>
           {name}

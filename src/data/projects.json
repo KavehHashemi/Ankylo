@@ -41,7 +41,7 @@
         },
         {
             "name": "Durga",
-            "description": "Durga's Description",
+            "description": "News web-app aimed at bypassing government's internet restrictions using Chromium's built-in notification (ongoing collab)",
             "tech": [
                 "react",
                 "TypeScript"
@@ -52,7 +52,7 @@
         },
         {
             "name": "Tamin",
-            "description": "Insurance",
+            "description": "Whistleblowing webform using Microsoft CRM portal for Iranian Social Security Organization's website",
             "tech": [
                 "C#",
                 "Blazor",
