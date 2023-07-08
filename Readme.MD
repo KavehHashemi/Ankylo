@@ -8,7 +8,7 @@ This is my personal website; It's basically my CV with some icons.
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="60" title="React"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201" width="60" title="TypeScript"/>
     <img src="https://vitejs.dev/logo-with-shadow.png" width="60" title="Vite"/>
-    <img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" width="60" title="Sass"/>
+    <img src="https://sass-lang.com/assets/img/logos/logo.svg" width="60" title="Sass"/>
 </div>
 
 
