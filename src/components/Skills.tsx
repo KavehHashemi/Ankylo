@@ -26,7 +26,7 @@ import tailwind from "../assets/Tailwind.svg";
 import typescript from "../assets/TypeScript.svg";
 import visio from "../assets/Visio.svg";
 import mongodb from "../assets/MongoDB.svg";
-import graphql from "../assets/graphql.svg";
+import graphql from "../assets/GraphQL.svg";
 import sass from "../assets/Sass.svg";
 import data from "../data/data.json";
 import Skill from "./Skill";
