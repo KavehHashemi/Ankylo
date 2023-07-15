@@ -39,7 +39,7 @@ $desktop: 1025px;
 }
 
 %main-container {
-    height: 100vh;
+    height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
     justify-content: center;
